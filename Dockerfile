@@ -1,4 +1,4 @@
-FROM golang:1.11.13-alpine as builder
+FROM golang:1.12.10-alpine as builder
 
 WORKDIR /workspace/src/github.com/aws/
 RUN apk add --no-cache bash gcc git libc-dev make && \
