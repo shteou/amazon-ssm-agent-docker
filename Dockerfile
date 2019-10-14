@@ -22,4 +22,4 @@ RUN gofmt -w ./agent/agentlogstocloudwatch/cloudwatchlogspublisher/cloudwatchlog
     goimports -w ./agent/session/plugins/sessionplugin/mocks/ISessionPlugin.go && \
     goimports -w ./agent/session/service/mocks/service.go
 
-RUN make build
+RUN make build-linux
